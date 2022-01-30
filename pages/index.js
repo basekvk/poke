@@ -14,7 +14,7 @@ export default function Pokemones({pokemones}) {
   
   return (
     <div>
-      <p>POKEMONES</p>
+      <p>MI APP DE POKEMONES</p>
       <ul>
         {pokemones.map(pokemon => <Pokemon pokemon={pokemon} key={pokemon.name}/>)}
       </ul>
